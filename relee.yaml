@@ -1,0 +1,22 @@
+# This is a sample coniguration for Home Assistant
+- platform: mqtt
+  name: "AC1"
+  state_topic: "/solar/AC1Confirm1/"
+  state_on: "1"
+  state_off: "0"
+  command_topic: "/solar/AC1/"
+  payload_on: "1"
+  payload_off: "0"
+  qos: 0
+  retain: true    
+- platform: mqtt
+  name: "AC2"
+  state_topic: "/solar/AC2Confirm2/"
+  state_on: "1"
+  state_off: "0"
+  command_topic: "/solar/AC2/"
+  payload_on: "1"
+  payload_off: "0"
+  qos: 0
+  retain: true
+  
