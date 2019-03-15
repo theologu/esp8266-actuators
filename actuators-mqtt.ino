@@ -5,9 +5,9 @@ bool stopac;
 long lastmqttupdate = 0;
 long updatet = 0;
 
-
+//Edit this
 const char* ssid     = "TP-LINK";
-const char* password = "xxxxxxxx";
+const char* password = "77777777";
 
 //Hex command to send to serial for close relay
   byte rel1ON[]  = {0xA0, 0x01, 0x01, 0xA2, 0x0d, 0x0a};
@@ -29,9 +29,9 @@ const char* password = "xxxxxxxx";
 void callback(char* topic, byte* payload, unsigned int length);
 
 //EDIT THESE LINES TO MATCH YOUR SETUP
-#define MQTT_SERVER "mycloudserver.com"
+#define MQTT_SERVER "vpn.safebyte.ro"
 #define MQTT_USER "user"
-#define MQTT_PASS "a_complicated_password"
+#define MQTT_PASS "parola"
 const int mqttPort = 1883;
 char const* controlTopic1 = "/solar/AC1/";
 char const* controlTopic2 = "/solar/AC2/";
