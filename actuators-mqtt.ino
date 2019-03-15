@@ -47,6 +47,7 @@ if (client.connect("solar-AC-control",MQTT_USER,MQTT_PASS)) {
 
         client.subscribe(controlTopic1);
         client.subscribe(controlTopic2);
+		
         
         
 
