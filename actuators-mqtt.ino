@@ -29,7 +29,7 @@ const char* password = "77777777";
 void callback(char* topic, byte* payload, unsigned int length);
 
 //EDIT THESE LINES TO MATCH YOUR SETUP
-#define MQTT_SERVER "vpn.safebyte.ro"
+#define MQTT_SERVER "ha.mycloud.org"
 #define MQTT_USER "user"
 #define MQTT_PASS "parola"
 const int mqttPort = 1883;
